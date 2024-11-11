@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASRTU-1 卫星遥测信息快捷面板</title>
+    <title>ASRTU-1 遥测信息快捷面板</title>
     <style>
         /* 全局样式 */
         body {
@@ -17,11 +17,22 @@
             max-width: 600px;
             margin: auto;
             padding: 20px;
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
             color: #333;
+            font-size: 1.8em;
+            line-height: 1.2;
+        }
+
+        /* 当屏幕宽度小于600px时，使标题自动换行 */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+                line-height: 1.4;
+                white-space: pre-line; /* 保证换行显示 */
+            }
         }
 
         .link-panel {
@@ -55,27 +66,25 @@
             color: #1e90ff;
             text-decoration: none;
         }
-
-        /* 移动端优化 */
-        @media (max-width: 600px) {
-            .link-panel {
-                grid-template-columns: 1fr;
-            }
-        }
     </style>
+    <!-- Microsoft Clarity 数据统计 -->
+    <script type="text/javascript">(function (c, l, a, r, i, t, y) {c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);})(window, document, "clarity", "script", "lrsvok50ur");</script>
+    <!-- Google tag 数据统计 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEX5HD8QZ2"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag() { dataLayer.push(arguments); }gtag('js', new Date());gtag('config', 'G-FEX5HD8QZ2');</script>
 </head>
 <body>
 
 <div class="container">
-    <h1>ASRTU-1 遥测信息快捷面板</h1>
+    <h1>ASRTU-1<br>遥测信息快速面板</h1> <!-- 手动添加换行 -->
     <div class="link-panel">
-        <a target="_blank" href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00018.7.16:12V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00020.7.16:5V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00022.7.16:3.3V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00024.7.16:12V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581;SAT-C00026.7.16:5V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581;SAT-C00028.7.16:3.3V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581">供电母线电压及电流情况</a>
-        <a target="_blank" href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00036.7.16:MPPT1%25E7%2594%25B5%25E5%258E%258B;SAT-C00038.7.16:MPPT2%25E7%2594%25B5%25E5%258E%258B;SAT-C00040.7.16:MPPT3%25E7%2594%25B5%25E5%258E%258B;SAT-C00042.7.16:MPPT1%25E7%2594%25B5%25E6%25B5%2581;SAT-C00044.7.16:MPPT2%25E7%2594%25B5%25E6%25B5%2581;SAT-C00046.7.16:MPPT3%25E7%2594%25B5%25E6%25B5%2581">MMTP 太阳能帆板输出情况</a>
-        <a target="_blank" href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00048.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A81%25E7%2594%25B5%25E5%258E%258B;SAT-C00050.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A82%25E7%2594%25B5%25E5%258E%258B;SAT-C00052.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A81%25E7%2594%25B5%25E6%25B5%2581;SAT-C00054.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A82%25E7%2594%25B5%25E6%25B5%2581">充电器电压及电流情况</a>
+        <a href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00018.7.16:12V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00020.7.16:5V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00022.7.16:3.3V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E5%258E%258B;SAT-C00024.7.16:12V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581;SAT-C00026.7.16:5V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581;SAT-C00028.7.16:3.3V%25E6%25AF%258D%25E7%25BA%25BF%25E7%2594%25B5%25E6%25B5%2581">MMTP 太阳能帆板输出情况 </a>
+        <a href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00036.7.16:MPPT1%25E7%2594%25B5%25E5%258E%258B;SAT-C00038.7.16:MPPT2%25E7%2594%25B5%25E5%258E%258B;SAT-C00040.7.16:MPPT3%25E7%2594%25B5%25E5%258E%258B;SAT-C00042.7.16:MPPT1%25E7%2594%25B5%25E6%25B5%2581;SAT-C00044.7.16:MPPT2%25E7%2594%25B5%25E6%25B5%2581;SAT-C00046.7.16:MPPT3%25E7%2594%25B5%25E6%25B5%2581">供电母线电压及电流情况</a>
+        <a href="http://1.92.100.130/pages/lines.html?sat=ASRTU-1&data=SAT-C00048.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A81%25E7%2594%25B5%25E5%258E%258B;SAT-C00050.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A82%25E7%2594%25B5%25E5%258E%258B;SAT-C00052.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A81%25E7%2594%25B5%25E6%25B5%2581;SAT-C00054.7.16:%25E5%2585%2585%25E7%2594%25B5%25E5%2599%25A82%25E7%2594%25B5%25E6%25B5%2581">充电器电压及电流情况</a>
     </div>
 
     <div class="footer">
-        <p>在 <a href="https://github.com/X-MQSI/ASRTU-1-Data-Link" target="_blank">GitHub</a> 上修改此页面</p>
+        <p>在 <a href="https://github.com/your-repo-url" target="_blank">GitHub</a> 上修改此页面</p>
     </div>
 </div>
 
