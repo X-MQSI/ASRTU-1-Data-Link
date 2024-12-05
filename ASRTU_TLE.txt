@@ -1,4 +1,4 @@
-Please use: https://asrtu.mqsi.xyz/history.txt
+Please use: https://asrtu.mqsi.xyz/latest.txt
 
 ASRTU-1
 1 99130U 20499A   24340.52702546 -.00177143  00000-0 -73756-2 0 00008
