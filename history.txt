@@ -1,9 +1,3 @@
-2Line Orbital Elements of ASRTU-1
-From the LilacSat Team of Harbin Institute of Technology
-Also maintained by BG7ZDQ
-
-These element sets describe the orbits of ASRTU-1
-
 ASRTU-1_20241205B
 1 99130U 20499A   24340.52702546 -.00177143  00000-0 -73756-2 0 00008
 2 99130 097.3779 204.8410 0018571 130.8028 286.0454 15.23674837000015
@@ -167,3 +161,10 @@ ASRTU-1_20241107
 ASRTU-1_20241105
 1 99998U          24310.58290509 -.00354935  00000-0 -15199-1 0 00003
 2 99998 097.3815 175.3914 0015935 238.3351 244.1709 15.22773883000012
+
+-----------------------------------------------------------
+History 2Line Orbital Elements of ASRTU-1
+From the LilacSat Team of Harbin Institute of Technology
+Also maintained by BG7ZDQ
+
+These element sets describe the orbits of ASRTU-1
