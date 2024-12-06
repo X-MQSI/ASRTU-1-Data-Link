@@ -165,10 +165,3 @@ ASRTU-1_20241107
 ASRTU-1_20241105
 1 99998U          24310.58290509 -.00354935  00000-0 -15199-1 0 00003
 2 99998 097.3815 175.3914 0015935 238.3351 244.1709 15.22773883000012
-
------------------------------------------------------------
-History 2Line Orbital Elements of ASRTU-1
-From the LilacSat Team of Harbin Institute of Technology
-Also maintained by BG7ZDQ
-
-These element sets describe the orbits of ASRTU-1
