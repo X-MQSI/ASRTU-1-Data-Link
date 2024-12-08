@@ -1,7 +1,8 @@
-Please use: https://asrtu.mqsi.xyz/latest.txt
+ASRTU has now obtained the official NORAD number.
 
-ASRTU-1
-1 99130U 20499A   24342.49518519  .00052381  00000-0  21763-2 0 00006
-2 99130 097.3798 206.7777 0018858 123.6801 282.1049 15.23689449000012
+ASRTU-1 (AO-123)
+2024-199AY
+NORAD: 61781
 
-// ASRTU-1_20241207A
+Now, you can use:
+https://celestrak.org/NORAD/elements/gp.php?CATNR=61781
